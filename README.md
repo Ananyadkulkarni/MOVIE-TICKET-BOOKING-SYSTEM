@@ -1,4 +1,4 @@
-# movie-ticket-booking-system
+# Movie-Ticket-Booking-System
 Movie Ticket Booking System: Your Gateway to Seamless Cinema Experiences
 
 This repository houses the code for an online Movie Ticket Booking System, designed to provide users with a convenient and efficient way to book movie tickets from the comfort of their own devices. The platform offers a user-friendly interface that allows individuals to easily browse available movies, check showtimes at various cinemas, and select their preferred seats. Beyond basic booking, the system aims to enhance the user experience through personalized recommendations and comprehensive movie information, including synopses, cast details, and ratings.
