@@ -12,16 +12,18 @@ A simple web app for booking movie tickets built using Node.js, Express, and Mon
 
 1. Install Node.js and MongoDB
 2. Open terminal and run:
-   bash
+   ```bash
    mkdir my-node-project
    cd my-node-project
    npm init -y
    npm install express mongodb body-parser cors
+   ```
    
 3. Start MongoDB and server:
-   bash
+  ``` bash
    mongod
    node server.js
+```
    
 4. Open [http://localhost:5000](http://localhost:5000) in your browser.
 
