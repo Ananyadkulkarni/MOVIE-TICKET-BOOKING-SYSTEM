@@ -1,22 +1,36 @@
-# Movie-Ticket-Booking-System
-Movie Ticket Booking System: Your Gateway to Seamless Cinema Experiences
+## 🎬 Simple-Online-Movie-Ticket-Booking-Page
 
-This repository houses the code for an online Movie Ticket Booking System, designed to provide users with a convenient and efficient way to book movie tickets from the comfort of their own devices. The platform offers a user-friendly interface that allows individuals to easily browse available movies, check showtimes at various cinemas, and select their preferred seats. Beyond basic booking, the system aims to enhance the user experience through personalized recommendations and comprehensive movie information, including synopses, cast details, and ratings.
+A simple web app for booking movie tickets built using Node.js, Express, and MongoDB for the backend, with HTML, CSS, and JavaScript on the frontend.
 
-Key Features & User Benefits:
+## ⚙ Tech Stack
 
-Effortless Browsing & Booking: Users can quickly find movies, view showtimes, and select seats through an intuitive interface.
-Personalized Recommendations: The system offers suggestions tailored to user preferences, enhancing discovery.
-Detailed Movie Information: Access comprehensive details like synopses, cast, and ratings to make informed choices.
-User Account Management: Registered users can create accounts to track booking history and manage their preferences.
-Multi-Device Accessibility: The platform is designed to be accessible across various devices, ensuring convenience.
+- Frontend: HTML, CSS, JavaScript  
+- Backend: Node.js, Express.js, MongoDB  
+- Modules: body-parser, cors
 
-Administrator Capabilities & System Advantages:
+## 🚀 Setup Instructions
 
-Comprehensive Management:Cinema administrators can efficiently manage movie listings, showtimes, and seat availability.
-Real-time Updates:Ensures accurate seat availability, preventing frustrating double bookings for users.
-Automated Operations: Streamlines ticket sales processes, reducing manual effort and potential errors.
-Enhanced Efficiency:Improves overall cinema operations by automating key tasks.
-Scalability & Reliability:The system is designed with scalability and reliability in mind to handle growing user bases and transaction volumes.
+1. Install Node.js and MongoDB
+2. Open terminal and run:
+   bash
+   mkdir my-node-project
+   cd my-node-project
+   npm init -y
+   npm install express mongodb body-parser cors
+   
+3. Start MongoDB and server:
+   bash
+   mongod
+   node server.js
+   
+4. Open [http://localhost:5000](http://localhost:5000) in your browser.
 
-This project prioritizes user-centric features and aims to create a seamless and enjoyable movie ticket booking experience while providing cinema administrators with the tools they need to efficiently manage their operations.
+## 📦 Features
+
+- Movie selection, date & seat booking
+- Bookings stored in MongoDB
+- REST API integration with validation
+
+## 📝 License
+
+This project is for educational use only.
